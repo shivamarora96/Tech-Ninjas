@@ -6,7 +6,7 @@ package com.teamninjas.tech_ninjas;
 
 public class Constants {
 
-    final static public String SERVER_BASEURL = "" ;
+    final static public String SERVER_BASEURL = "http://139.59.31.116/" ;
     
 
 
