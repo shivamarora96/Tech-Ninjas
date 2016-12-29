@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.teamninjas.tech_ninjas.LoginActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="22dp"
+        android:gravity="center"
+        android:layout_margin="25dp"
+        android:layout_marginTop="25dp"
+        />
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="55dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+
+     <EditText
+         android:id="@+id/Login_emailEditText"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:hint="Emain ID : "
+         android:inputType="textEmailAddress"
+         />
+
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize">
+
+
+        <EditText
+            android:id="@+id/Login_passwordEditText"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Password : "
+            />
+
+
+    </android.support.design.widget.TextInputLayout>
+
+
+
+    <Button
+        android:id="@+id/Login_LoginButton"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="40dp"
+        android:text="L O G I N"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textStyle="bold"
+        android:background="@color/colorAccent"
+        android:textColor="#ffffff"
+        android:textSize="17dp"
+        />
+
+
+    <Button
+        android:id="@+id/Login_SinupButton"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="S I N U P"
+        android:textStyle="bold"
+        android:background="@color/colorAccent"
+        android:textColor="#ffffff"
+        android:textSize="17dp"
+        />
+
+
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "252392430675",
+    "firebase_url": "https://tech-ninjas.firebaseio.com",
+    "project_id": "tech-ninjas",
+    "storage_bucket": "tech-ninjas.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:252392430675:android:989903dfd3eee626",
+        "android_client_info": {
+          "package_name": "com.teamninjas.tech_ninjas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "252392430675-un00m4k60cio6djrv3pip03rp0578mm6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.teamninjas.tech_ninjas",
+            "certificate_hash": "8AEB0B42046989446661F4F0AAB71961A1D45C04"
+          }
+        },
+        {
+          "client_id": "252392430675-hmo655mau0k9u3ggl2j3ijp2eqo6328h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDF7G15bCIjS4g_ZFADetksJaAXIuu91E0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "252392430675-hmo655mau0k9u3ggl2j3ijp2eqo6328h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
